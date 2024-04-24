@@ -7,17 +7,14 @@ html{
     overflow: hidden;
 }
 .card-container{
+    min-width: 500px;
     height: 70vh;
-    width: 30vw;
-    border: solid black;
+    width: 30vw; 
     overflow: scroll;
     background-color: aliceblue;
     border-radius: 10px;
-}
-.buffer{
-   margin: 1em;
-
-
+    padding: 15px 10px;
+    
 }
 
 body{
@@ -28,3 +25,11 @@ body{
     align-items: center;
     background:no-repeat url(assets/images/background-pattern-desktop.svg);
 }
+h2::after{
+    content: url(assets/images/icon-plus.svg);
+}
+
+ h2 > p{
+    font-size: .8em;
+}
+ 
