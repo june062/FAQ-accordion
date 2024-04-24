@@ -1,4 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 .card-container{
-    height: 60vh;
-    width: 40vw;
+    height: 70vh;
+    width: 30vw;
+    border: solid black;
+    overflow: scroll;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.buffer{
+   margin: 1em;
+
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:no-repeat url(assets/images/background-pattern-desktop.svg);
 }
