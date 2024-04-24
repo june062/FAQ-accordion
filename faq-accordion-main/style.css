@@ -29,7 +29,19 @@ h2::after{
     content: url(assets/images/icon-plus.svg);
 }
 
- h2 > p{
-    font-size: .8em;
+ p{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 25px;
 }
- 
+
+.first{
+    margin: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: -20px;
+}
+.sticky{
+    height: 150px;
+    border: solid black;
+}
